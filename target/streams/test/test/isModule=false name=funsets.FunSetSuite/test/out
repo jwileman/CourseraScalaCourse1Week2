@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m[32mFunSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- contains is implemented[0m[0m
+[0m[[0minfo[0m] [0m[32m- singletonSet(1) contains 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- union contains all elements of each set[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall test 1[0m[0m
+[0m[[0minfo[0m] [0m[32m- forall test 2[0m[0m
+[0m[[0minfo[0m] [0m[31m- exists test 1 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  FunSets.exists(s, ((a: Int) => a.==(2))) was false 2 should exist in the given set. (FunSetSuite.scala:125)[0m[0m
+[0m[[0minfo[0m] [0m[31m- exists test 2 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  FunSets.exists(s, ((a: Int) => a.%(2).!=(0))) was false The set of all even numbers and 3 should contain an odd element, namely 3. (FunSetSuite.scala:130)[0m[0m
+[0m[[0minfo[0m] [0m[32m- [0m[0m
